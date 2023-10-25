@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+}
+#outer{
+    width: 99vw;
+    height: 96vh;
+    background-image: url("task\ 4\ img1.jpg");
+    background-size: cover;
+}
+
+#inner{
+    position: relative;
+    width: 20vw;
+    height: 53vh;
+    background-color:white;
+    top: 47vh;
+    left:50vw;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#username,#password{
+    border: 1px solid rgba(165,165,165,0.5);
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+}
+#Remember{
+    float: left;
+    accent-color: #414ab0;
+    width: 150px;
+    left: 100px;
+}
+button{
+    background-color: #414ab0;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+footer{
+    position: fixed;
+    width: 100vw;
+    height: 60px;
+    bottom: 0;
+    background-color: #becacc;
+}
+
+#copyright{
+    position: relative;
+    left: 150px;
+    display: inline-block;
+    margin-right:200px;
+
+
+}
+#privacy,#agreement{
+    display: inline-block;
+    margin-right:50px;
+    text-align: center;
+}
