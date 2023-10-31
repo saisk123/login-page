@@ -5,16 +5,16 @@
 #outer{
     width: 99vw;
     height: 96vh;
-    background-image: url("task\ 4\ img1.jpg");
+    background-image: url("img1.jpg");
     background-size: cover;
 }
 
 #inner{
-    position: relative;
+    position: absolute;
     width: 20vw;
     height: 53vh;
     background-color:white;
-    top: 47vh;
+    top: 49vh;
     left:50vw;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -38,6 +38,13 @@ button{
     height: 40px;
     border-radius: 25px;
 }
+
+#error-message{
+    color: red;
+    display: none;
+}
+
+
 
 a{
     text-decoration: none;

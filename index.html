@@ -10,22 +10,23 @@
     <div id="outer">
         <div id="inner">
             <p id="text">Member Log In</p>
-            <form>
+            <form id="login-form">
+                <br>
+                <p id="error-message">Username or Password Invalid</p>
                 <input id="username" type="text" placeholder="Username *" required>
                 <br><br>
                 <input id="password" type="password" placeholder="Password *" required>
                 <br><br>
                 <div id="Remember"><input type="checkbox"> Remember me</div>
                 <br><br>
-                <button>Log In</button>
+                <button type="button" id="login-button">Log In</button>
             </form>
             <p id="forgot">
                 Forgot your <a href="#">Username</a> or <a href="#">Password</a> ?
             </p>
             <p id="new">
                 New here? <a href="#">Create an account</a>
-            </p>
-            
+            </p>     
         </div>
     </div>
     <footer>
@@ -33,5 +34,6 @@
         <p id="privacy">Privacy Policy</p>
         <p id="agreement">User Agreement</p>
     </footer>
+    <script src="home.js"></script>       
 </body>
 </html>
